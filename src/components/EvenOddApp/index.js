@@ -25,7 +25,7 @@ class Evenodd extends Component {
           <h1 className="numb">
             Count <span>{num}</span>
           </h1>
-          <h1 className="type">Count is {type}</h1>
+          <p className="type">Count is {type}</p>
           <button type="button" onClick={this.inc} className="btn">
             Increment
           </button>
